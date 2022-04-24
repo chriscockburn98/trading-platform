@@ -1,0 +1,36 @@
+{
+  "name": "trading-api-christopher-cockburn",
+  "type": "module",
+  "main": "src/index.js",
+  "author": {
+    "name": "Christopher Cockburn"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "apollo-server-express": "^3.6.1",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "mongoose": "^6.1.6",
+    "pino": "^7.6.4"
+  },
+  "scripts": {
+    "start:develop": "nodemon src/index.js | ./node_modules/.bin/pino-pretty",
+    "build": "yarn build",
+    "test": "yarn test",
+    "eject": "yarn eject"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@types/supertest": "^2.0.12",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "pino-pretty": "^7.5.0",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
